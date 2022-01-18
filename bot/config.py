@@ -1,13 +1,13 @@
 class config:
-    BOT_TOKEN = ""
-    APP_ID = ""
-    API_HASH = ""
-    DATABASE_URL = ""
-    SUDO_USERS = "" # Sepearted by space.
+    BOT_TOKEN = "2052935057:AAFOYd0zkEdt3voGAGtrqZA_E4szpQkI8mk"
+    APP_ID = "8952312"
+    API_HASH = "a4b2acde1e64b4d67c1e569fd77d404d"
+    DATABASE_URL = "postgres://xyofjcbpslipts:fb4468fb2fdde50e8a4de55de64aaa60a7f77a86a96daccc7327fe48dc2133ff@ec2-176-34-105-15.eu-west-1.compute.amazonaws.com:5432/dbq9r1nhggcckv"
+    SUDO_USERS = "1033810319" # Sepearted by space.
     DOWNLOAD_DIRECTORY = "./downloads/"
-    G_DRIVE_CLIENT_ID = ""
-    G_DRIVE_CLIENT_SECRET = ""
-    SUPPORT_CHAT_LINK = ""
+    G_DRIVE_CLIENT_ID = "275832002338-mil5nrje8scqcab6a5o7ttanjcn2ubil.apps.googleusercontent.com"
+    G_DRIVE_CLIENT_SECRET = "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"
+    SUPPORT_CHAT_LINK = "https://t.me/+yjXEb9fBUWo1Zjc9"
 
 
 class BotCommands:
@@ -21,7 +21,7 @@ class BotCommands:
   YtDl = ['ytdl']
 
 class Messages:
-    START_MSG = "**[Hi there](https://youtu.be/sTQkY0UE20c) {}.**\n__I'm Google Drive Uploader Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help.__"
+    START_MSG = "**[Hi there] {}.**\n__I'm Google Drive Uploader Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help.__"
 
     HELP_MSG = [
         ".",
